@@ -225,8 +225,8 @@ article#main-col{
 	width: 60%;
 }
 .service-desc p{
-	font-size: 14px;
-	font-family: 'Kaushan Script', cursive;
+	font-size: 16px;
+	font-family: sans-serif;
 }
 .s-service:hover .service-desc{
 	bottom: 40%;
@@ -244,6 +244,27 @@ article#main-col{
 	.hr{
 		margin: 5px auto;
 	}
+}
+/*----==Donation--===*/
+.section {
+	padding: 40px 0;
+}
+.section img {
+	width: 100%;
+	border-radius: 5px;
+	border: #009688 solid;
+}
+#who h4{
+	width: 150px;
+	display: inline-block;
+	margin: 20px 20px;
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #009688;
+	border: 2px solid teal;
+	border-radius: 5px;
+	cursor: pointer;
+
 }
 /*------====team==-----=*/
 #team{
@@ -299,7 +320,7 @@ article#main-col{
 	width: 100px;
 }
 .details h2,.details p{
-	width: 100%
+	width: 100%;
 	text-align: center;
 	padding-left: 300px;
 
@@ -331,10 +352,11 @@ article#main-col{
 		text-align: left;
 	}
 }
-var scroll = new SmoothScroll('a[href*="#"]', {
+var scroll = new SmoothScroll('a[href*="#"]' {
 	speed: 1000,
 	speedAsDuration: true
-});
+;)
+}
 
 
 
